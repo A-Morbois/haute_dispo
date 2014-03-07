@@ -11,6 +11,7 @@ Autrement dit il faut que le site soit accessible sans interruption.
 
 
 MARCHE A SUIVRE:
+
 Dans un terminal cloner le projet:
 	git clone https://github.com/A-Morbois/haute_dispo
 	
