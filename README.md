@@ -14,14 +14,17 @@ MARCHE A SUIVRE:
 
 Dans un terminal cloner le projet à l'endroit souhaiter:
 
- /*  on clone le projet sur son pc puis on va dans le dossier téléchargé */
+ 		/*  on clone le projet sur son pc puis on va dans le dossier téléchargé */
  
 git clone https://github.com/A-Morbois/haute_dispo
 
 cd haute_dispo/
 	
-/* on créer la VM grâce au Vagrantfile puis on s'y connecte en ssh  */
+		/* on créer la VM grâce au Vagrantfile puis on s'y connecte en ssh  */
 
 vagrant up 
 
 vagrant ssh
+
+		/*une fois dans la vm on créer les serveur nginx qui hebergerons le wordpress*/
+
