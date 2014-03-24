@@ -28,4 +28,7 @@ Dans un terminal cloner le projet à l'endroit souhaiter:
 
 /* on construit ensuite les "docks" qui servirons de serveur pour le wordpress */
 
+	docker build -t redirection ngninx/
+	
+
 	
