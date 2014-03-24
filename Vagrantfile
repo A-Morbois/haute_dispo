@@ -14,7 +14,7 @@ Vagrant.configure("2") do |config|
   config.vm.network :forwarded_port, guest: 8080, host: 8080
   config.vm.network :forwarded_port, guest: 5432, host: 5432
 
-  config.vm.provision "shell", privileged: false, inline: "git clone https://github.com/dduportal/dockerfiles"
+  config.vm.provision "shell", privileged: false, inline: "git clone https://github.com/A-Morbois/haute_dispo_dockerfile"
   
 
 end
