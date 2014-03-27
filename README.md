@@ -30,7 +30,7 @@ Dans un terminal cloner le projet à l'endroit souhaiter:
 
 	cd haute_dispo_dockerfile/
 
-	docker build -t  equilibre  ngninx/
+	docker build -t  equilibre  nginx/
 	
 
 /* une fois build, on les démarre */
