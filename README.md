@@ -32,8 +32,14 @@ Dans un terminal cloner le projet à l'endroit souhaiter:
 
 	docker build -t  equilibre  nginx/
 	
+	docker build -t wp wordpress/
+	
 
 /* une fois build, on les démarre */
 
-	docker run -d -p 80:80 equilibre 
+	docker run -d -p 80:80 -name balance equilibre 
+	
+	docker run -d -p 8080:8080 -e NODE_LISTEN_PORT=8080 -name wp1 wp
+	
+	docker run -d -p 8081:8081 -e NODE_LISTEN_PORT=8081 -name wp2 wp
 	
