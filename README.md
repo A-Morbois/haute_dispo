@@ -43,6 +43,6 @@ Dans un terminal cloner le projet à l'endroit souhaiter:
 	
 	docker run -d -p 8081:8081 -e NODE_LISTEN_PORT=8081 -name wp2 wp
 
-/* dans le navigauteur aller à l'adresse*/
+/* dans le navigateur aller à l'adresse*/
 
 	 http://127.0.0.1:5080/backend/
